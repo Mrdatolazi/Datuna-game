@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Datuna</string>
+    <string name="pause_game">Pause game</string>
+    <string name="resume_game">Resume</string>
+    <string name="restart_game">Restart</string>
+    <string name="round_two">Play Round 2</string>
+    <string name="sound_on">Sound On</string>
+    <string name="sound_off">Sound Muted</string>
+    <string name="haptics_on">Vibration On</string>
+    <string name="haptics_off">Vibration Off</string>
+    <string name="best_score_label">Best Score</string>
+    <string name="score_label">Score</string>
+    <string name="coins_label">Coins</string>
+    <string name="round_label">Round</string>
+    <string name="paused_title">Paused</string>
+    <string name="controls_hint">Move with ◀ ▶ · Duck to dodge · Throw ⚪ Balls · Tap Jump twice to double-jump</string>
+</resources>

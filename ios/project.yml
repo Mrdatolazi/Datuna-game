@@ -1,0 +1,38 @@
+name: Datuna
+options:
+  bundleIdPrefix: com.aistudio.datuna
+  deploymentTarget:
+    iOS: "15.0"
+targets:
+  Datuna:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+      - path: Resources/web
+        type: folder
+      - path: Resources/Assets.xcassets
+    info:
+      path: Info.plist
+      properties:
+        CFBundleDisplayName: Datuna
+        UILaunchScreen: {}
+        UIRequiresFullScreen: true
+        UIStatusBarHidden: true
+        UIViewControllerBasedStatusBarAppearance: false
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+    settings:
+      base:
+        SWIFT_VERSION: "5.0"
+        PRODUCT_BUNDLE_IDENTIFIER: com.aistudio.datuna.tbilisi
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGNING_ALLOWED: "NO"
+        CODE_SIGNING_REQUIRED: "NO"
+        CODE_SIGN_IDENTITY: ""
